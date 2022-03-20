@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h2>Kontakt</h2>
+    <h2>Contact</h2>
   </header>
   <main>
     <ContactOption v-for="option in options" :option="option" :key="option.title" />
